@@ -11,7 +11,7 @@ const petsData = {
         size: "Mediano",
         type: "gatos",
         description: "Luna es una gatita muy cariñosa y juguetona. Le encanta estar cerca de las personas y es perfecta para familias con niños. Ya está esterilizada y tiene todas sus vacunas al día.",
-        image: "https://via.placeholder.com/280x250/3498db/ffffff?text=MAX"
+        image: "./Assets/IMG1.png"
     },
     2: {
         name: "Max",
