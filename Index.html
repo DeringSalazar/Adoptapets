@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta una Mascota - Encuentra tu compañero perfecto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-paw"></i>
+                    <span>AdoptaMascota</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#mascotas" class="nav-link">Mascotas</a></li>
+                    <li><a href="#donaciones" class="nav-link">Donaciones</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Dale una segunda oportunidad a una mascota</h1>
+            <p>Conectamos corazones con patitas. Encuentra tu compañero perfecto y cambia dos vidas para siempre.</p>
+            <div class="hero-buttons">
+                <a href="#mascotas" class="btn btn-primary">Ver Mascotas</a>
+                <a href="#donaciones" class="btn btn-secondary">Donar Ahora</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/500x400/e67e22/ffffff?text=Mascotas+Felices" alt="Mascotas felices">
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Somos una organización sin fines de lucro dedicada al rescate, rehabilitación y adopción responsable de mascotas. Desde 2015, hemos encontrado hogares amorosos para más de 2,500 animales.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>2,500+</h3>
+                            <p>Mascotas adoptadas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15</h3>
+                            <p>Casas cunas activas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8</h3>
+                            <p>Años de experiencia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x300/e67e22/ffffff?text=Voluntarios" alt="Voluntarios con mascotas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Casas Cunas Registradas -->
+    <section class="foster-homes">
+        <div class="container">
+            <h2>Nuestras Casas Cunas</h2>
+            <p class="section-subtitle">Familias voluntarias que brindan cuidado temporal a nuestras mascotas</p>
+            <div class="foster-grid">
+                <div class="foster-card">
+                    <img src="https://via.placeholder.com/100x100/e67e22/ffffff?text=CA" alt="Casa Cuna Los Ángeles">
+                    <h3>Casa Cuna Los Ángeles</h3>
+                    <p>Especializada en cachorros y gatitos recién nacidos</p>
+                    <div class="foster-info">
+                        <span><i class="fas fa-map-marker-alt"></i> Zona Norte</span>
+                        <span><i class="fas fa-heart"></i> 45 mascotas cuidadas</span>
+                    </div>
+                </div>
+                <div class="foster-card">
+                    <img src="https://via.placeholder.com/100x100/e67e22/ffffff?text=RE" alt="Refugio Esperanza">
+                    <h3>Refugio Esperanza</h3>
+                    <p>Cuidado especializado para mascotas con necesidades médicas</p>
+                    <div class="foster-info">
+                        <span><i class="fas fa-map-marker-alt"></i> Centro</span>
+                        <span><i class="fas fa-heart"></i> 32 mascotas cuidadas</span>
+                    </div>
+                </div>
+                <div class="foster-card">
+                    <img src="https://via.placeholder.com/100x100/e67e22/ffffff?text=HP" alt="Hogar Patitas Felices">
+                    <h3>Hogar Patitas Felices</h3>
+                    <p>Rehabilitación y socialización de mascotas rescatadas</p>
+                    <div class="foster-info">
+                        <span><i class="fas fa-map-marker-alt"></i> Zona Sur</span>
+                        <span><i class="fas fa-heart"></i> 28 mascotas cuidadas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Mascotas -->
+    <section id="mascotas" class="pets-gallery">
+        <div class="container">
+            <h2>Mascotas en Adopción</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="perros">Perros</button>
+                <button class="filter-btn" data-filter="gatos">Gatos</button>
+            </div>
+            <div class="pets-grid" id="pets-grid">
+                <!-- Mascotas directamente en HTML -->
+                <div class="pet-card gatos">
+                    <img src="Assets/IMG#1.png" alt="Luna">
+                    <div class="pet-info">
+                        <h3>Luna</h3>
+                        <div class="pet-details">
+                            <span><i class="fas fa-birthday-cake"></i> 2 años</span>
+                            <span><i class="fas fa-venus-mars"></i> Hembra</span>
+                            <span><i class="fas fa-ruler"></i> Mediano</span>
+                        </div>
+                        <p>Luna es una gatita muy cariñosa y juguetona. Le encanta estar cerca de las personas y es perfecta...</p>
+                        <button class="btn btn-primary" onclick="showPetDetails(1)">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card perros">
+                    <img src="https://via.placeholder.com/280x250/3498db/ffffff?text=MAX" alt="Max">
+                    <div class="pet-info">
+                        <h3>Max</h3>
+                        <div class="pet-details">
+                            <span><i class="fas fa-birthday-cake"></i> 3 años</span>
+                            <span><i class="fas fa-venus-mars"></i> Macho</span>
+                            <span><i class="fas fa-ruler"></i> Grande</span>
+                        </div>
+                        <p>Max es un perro muy leal y protector. Está entrenado y es ideal para familias activas que disfruten...</p>
+                        <button class="btn btn-primary" onclick="showPetDetails(2)">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card gatos">
+                    <img src="https://via.placeholder.com/280x250/e74c3c/ffffff?text=MIMI" alt="Mimi">
+                    <div class="pet-info">
+                        <h3>Mimi</h3>
+                        <div class="pet-details">
+                            <span><i class="fas fa-birthday-cake"></i> 1 año</span>
+                            <span><i class="fas fa-venus-mars"></i> Hembra</span>
+                            <span><i class="fas fa-ruler"></i> Pequeño</span>
+                        </div>
+                        <p>Mimi es una gatita muy tímida pero dulce. Necesita una familia paciente que le ayude a ganar...</p>
+                        <button class="btn btn-primary" onclick="showPetDetails(3)">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card perros">
+                    <img src="https://via.placeholder.com/280x250/2ecc71/ffffff?text=ROCKY" alt="Rocky">
+                    <div class="pet-info">
+                        <h3>Rocky</h3>
+                        <div class="pet-details">
+                            <span><i class="fas fa-birthday-cake"></i> 5 años</span>
+                            <span><i class="fas fa-venus-mars"></i> Macho</span>
+                            <span><i class="fas fa-ruler"></i> Mediano</span>
+                        </div>
+                        <p>Rocky es un perro muy tranquilo y cariñoso. Es perfecto para personas mayores o familias que buscan...</p>
+                        <button class="btn btn-primary" onclick="showPetDetails(4)">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card perros">
+                    <img src="https://via.placeholder.com/280x250/f39c12/ffffff?text=BELLA" alt="Bella">
+                    <div class="pet-info">
+                        <h3>Bella</h3>
+                        <div class="pet-details">
+                            <span><i class="fas fa-birthday-cake"></i> 2 años</span>
+                            <span><i class="fas fa-venus-mars"></i> Hembra</span>
+                            <span><i class="fas fa-ruler"></i> Pequeño</span>
+                        </div>
+                        <p>Bella es una perrita muy energética y juguetona. Le encanta correr y jugar, ideal para familias...</p>
+                        <button class="btn btn-primary" onclick="showPetDetails(5)">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card gatos">
+                    <img src="https://via.placeholder.com/280x250/9b59b6/ffffff?text=SIMBA" alt="Simba">
+                    <div class="pet-info">
+                        <h3>Simba</h3>
+                        <div class="pet-details">
+                            <span><i class="fas fa-birthday-cake"></i> 4 años</span>
+                            <span><i class="fas fa-venus-mars"></i> Macho</span>
+                            <span><i class="fas fa-ruler"></i> Grande</span>
+                        </div>
+                        <p>Simba es un gato muy independiente pero cariñoso. Es perfecto para personas que buscan una mascota...</p>
+                        <button class="btn btn-primary" onclick="showPetDetails(6)">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Donaciones -->
+    <section id="donaciones" class="donations">
+        <div class="container">
+            <h2>Ayúdanos a Seguir Salvando Vidas</h2>
+            <p class="section-subtitle">Tu donación nos permite continuar rescatando y cuidando mascotas necesitadas</p>
+            <div class="donation-content">
+                <div class="donation-options">
+                    <h3>Opciones de Donación</h3>
+                    <div class="donation-amounts">
+                        <button class="amount-btn" data-amount="25">$25</button>
+                        <button class="amount-btn" data-amount="50">$50</button>
+                        <button class="amount-btn active" data-amount="100">$100</button>
+                        <button class="amount-btn" data-amount="200">$200</button>
+                    </div>
+                    <div class="custom-amount">
+                        <input type="number" id="custom-amount" placeholder="Cantidad personalizada">
+                    </div>
+                    <button class="btn btn-primary donation-btn">Donar Ahora</button>
+                </div>
+                <div class="donation-impact">
+                    <h3>Tu Impacto</h3>
+                    <div class="impact-item">
+                        <i class="fas fa-syringe"></i>
+                        <div>
+                            <h4>$25</h4>
+                            <p>Vacunas para una mascota</p>
+                        </div>
+                    </div>
+                    <div class="impact-item">
+                        <i class="fas fa-utensils"></i>
+                        <div>
+                            <h4>$50</h4>
+                            <p>Alimento por un mes</p>
+                        </div>
+                    </div>
+                    <div class="impact-item">
+                        <i class="fas fa-user-md"></i>
+                        <div>
+                            <h4>$100</h4>
+                            <p>Consulta veterinaria completa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Av. Principal 123, Ciudad, País</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@adoptamascota.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horarios</h4>
+                            <p>Lun - Vie: 9:00 AM - 6:00 PM<br>Sáb: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <h3>Envíanos un Mensaje</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecciona un tema</option>
+                            <option value="adopcion">Adopción</option>
+                            <option value="voluntariado">Voluntariado</option>
+                            <option value="donacion">Donación</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-paw"></i>
+                        <span>AdoptaMascota</span>
+                    </div>
+                    <p>Conectando corazones con patitas desde 2015</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#mascotas">Mascotas</a></li>
+                        <li><a href="#donaciones">Donaciones</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Adopción</a></li>
+                        <li><a href="#">Voluntariado</a></li>
+                        <li><a href="#">Casa Cuna</a></li>
+                        <li><a href="#">Educación</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AdoptaMascota. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para detalles de mascota -->
+    <div id="pet-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body">
+                <!-- Contenido del modal se carga dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
