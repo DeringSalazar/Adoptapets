@@ -436,9 +436,9 @@ body {
 
 .amount-btn {
     padding: 15px;
-    border: 2px solid #e67e22;
+    border: 2px solid var(--verde-oscuro);
     background: transparent;
-    color: #e67e22;
+    color: var(--verde-oscuro);
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s;
