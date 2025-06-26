@@ -225,7 +225,7 @@ body {
 
 .stat h3 {
     font-size: 2rem;
-    color: #e67e22;
+    color: var(--verde-oscuro);
     margin-bottom: 0.5rem;
 }
 
