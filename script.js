@@ -20,7 +20,7 @@ const petsData = {
         size: "Grande",
         type: "perros",
         description: "Max es un perro muy leal y protector. Está entrenado y es ideal para familias activas que disfruten de largos paseos y actividades al aire libre.",
-        image: "https://via.placeholder.com/280x250/3498db/ffffff?text=MAX"
+        image: "./Assets/IMG8.jpg"
     },
     3: {
         name: "Mimi",
@@ -38,7 +38,7 @@ const petsData = {
         size: "Mediano",
         type: "perros",
         description: "Rocky es un perro muy tranquilo y cariñoso. Es perfecto para personas mayores o familias que buscan una mascota relajada y bien educada.",
-        image: "https://via.placeholder.com/280x250/2ecc71/ffffff?text=ROCKY"
+        image: "./Assets/IMG9.jpg"
     },
     5: {
         name: "Bella",
@@ -47,7 +47,7 @@ const petsData = {
         size: "Pequeño",
         type: "perros",
         description: "Bella es una perrita muy energética y juguetona. Le encanta correr y jugar, ideal para familias activas con niños que puedan darle mucho ejercicio.",
-        image: "https://via.placeholder.com/280x250/f39c12/ffffff?text=BELLA"
+        image: "./Assets/IMG10.jpg"
     },
     6: {
         name: "Simba",
