@@ -280,9 +280,9 @@ body {
 }
 
 .foster-card img {
-    width: 100px;
+    width: 200px;
     height: 100px;
-    border-radius: 0%;
+    border-radius: 20%;
     margin-bottom: 1rem;
     object-fit: cover;
 }
