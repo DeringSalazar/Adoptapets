@@ -488,7 +488,7 @@ body {
 
 .impact-item i {
     font-size: 2rem;
-    color: #e67e22;
+    color: var(--verde-oscuro);
     width: 50px;
     text-align: center;
 }
@@ -536,7 +536,7 @@ body {
 
 .contact-item i {
     font-size: 1.5rem;
-    color: #e67e22;
+    color: var(--verde-oscuro);
     margin-top: 0.25rem;
 }
 
