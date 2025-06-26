@@ -448,7 +448,7 @@ body {
 
 .amount-btn.active,
 .amount-btn:hover {
-    background: #e67e22;
+    background: var(--verde-oscuro);
     color: white;
 }
 
