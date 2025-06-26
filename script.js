@@ -11,7 +11,7 @@ const petsData = {
         size: "Mediano",
         type: "gatos",
         description: "Luna es una gatita muy cariñosa y juguetona. Le encanta estar cerca de las personas y es perfecta para familias con niños. Ya está esterilizada y tiene todas sus vacunas al día.",
-        image: "https://via.placeholder.com/280x250/3498db/ffffff?text=MAX"
+        image: "./Assets/IMG13.jpg"
     },
     2: {
         name: "Max",
@@ -29,7 +29,7 @@ const petsData = {
         size: "Pequeño",
         type: "gatos",
         description: "Mimi es una gatita muy tímida pero dulce. Necesita una familia paciente que le ayude a ganar confianza. Una vez que se sienta cómoda, será muy cariñosa.",
-        image: "https://via.placeholder.com/280x250/e74c3c/ffffff?text=MIMI"
+        image: "./Assets/IMG12.jpg"
     },
     4: {
         name: "Rocky",
@@ -56,7 +56,7 @@ const petsData = {
         size: "Grande",
         type: "gatos",
         description: "Simba es un gato muy independiente pero cariñoso. Es perfecto para personas que buscan una mascota tranquila que también disfrute de momentos de cariño.",
-        image: "https://via.placeholder.com/280x250/9b59b6/ffffff?text=SIMBA"
+        image: "./Assets/IMG11.jpg"
     }
 };
 
