@@ -49,16 +49,19 @@ body {
     align-items: center;
 }
 
-.logo {
+.nav-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.5rem;
 }
 
-.logo img {
-    font-size: 18px;
-    width: 40px;
-    border-radius: 50%;
+.nav-logo img {
+    width: clamp(30px, 4vw, 50px); /* Mínimo 30px, ajustable, máximo 50px */
+    height: auto; /* Proporción automática */
+}
+
+.nav-logo span {
+    font-size: clamp(0.9rem, 2vw, 1.3rem); /* Texto adaptable */
 }
 
 .nav-menu {
