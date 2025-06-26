@@ -78,7 +78,7 @@ body {
 }
 
 .nav-link:hover {
-    color: --verde-oscuro #096b68;
+    color: var(--verde-oscuro);
 }
 
 .hamburger {
@@ -110,24 +110,25 @@ body {
 }
 
 .btn-primary {
-    background: #e67e22;
+    background: var(--verde-oscuro);
     color: white;
 }
 
 .btn-primary:hover {
-    background: #d35400;
+    background: var(--verde-claro);
+    color: var(--verde-oscuro);
     transform: translateY(-2px);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: var(--verde-oscuro);
+    border: 2px solid var(--verde-oscuro);
 }
 
 .btn-secondary:hover {
-    background: #e67e22;
-    color: white;
+    background: var(--verde-claro);
+    color: var(--verde-oscuro);
 }
 
 /* Sección Hero */
