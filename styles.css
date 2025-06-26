@@ -343,7 +343,7 @@ body {
 
 .filter-btn.active,
 .filter-btn:hover {
-    background: var(--verde-claro);
+    background: var(--verde-oscuro);
     color: white;
 }
 
