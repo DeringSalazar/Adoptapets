@@ -367,8 +367,8 @@ body {
 }
 
 .pet-card img {
-    width: 100%;
-    height: 380px;
+    width: 150%;
+    height: 420px;
     object-fit: cover;
 }
 
