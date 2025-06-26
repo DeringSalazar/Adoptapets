@@ -446,9 +446,13 @@ body {
     font-size: 1.1rem;
 }
 
-.amount-btn.active,
-.amount-btn:hover {
+.amount-btn.active{
     background: var(--verde-oscuro);
+    color: white;
+}
+
+.amount-btn:hover {
+    background: var(--verde-claro);
     color: white;
 }
 
